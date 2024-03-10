@@ -1,0 +1,23 @@
+
+.button {
+    all: initial;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background-color: #101214;
+    display: inline-flex;
+    padding: 16px 30px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.button:hover {
+    background: #303437;
+    cursor: pointer;
+}

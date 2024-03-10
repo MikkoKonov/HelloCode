@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.buttonWhite {
+    color: #101214;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 20px;
+    border: 3px solid #101214;
+    background: transparent;
+    display: inline-flex;
+    padding: 13px 27px;
+    transition: color 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+    margin: 15px 0px;
+    cursor: pointer;
+}
+
+.buttonWhite:hover {
+    background: #e7e7e7;
+    cursor: pointer;
+}

@@ -1,0 +1,52 @@
+.section {
+    max-width: 100%;
+    margin: auto;
+    background-color: #101214;
+}
+
+.Card {
+    background-color: #FFFFFF;
+    max-width: 26.815rem;
+    border-radius: 1.56rem;
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Добавлено */
+}
+
+.Card img {
+    width: 11.875rem;
+    height: 11.875rem;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Card p {
+    line-height: 2rem;
+    margin: 1.56rem 0rem;
+}
+
+.styleButton {
+    all: initial;               
+    font-family: "Montserrat-SemiBold", Helvetica;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background-color: #101214;
+    display: inline-flex;
+    padding: 1.38rem 0rem;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: auto;
+    cursor: pointer;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.styleButton:hover {
+    background: #303437;
+}

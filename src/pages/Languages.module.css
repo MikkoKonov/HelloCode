@@ -1,0 +1,29 @@
+
+.AnimatedText {
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #101214;
+    z-index: 2;
+}
+
+.animationCursor {
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    color: #101214;
+    padding: 7px;
+    background-color: #101214;
+    animation: blink 0.8s infinite; /* Применяем анимацию blink */
+}
+  
+@keyframes blink {
+    0% { opacity: 1; } /* Начальное состояние: полностью видимый */
+    50% { opacity: 0; } /* Среднее состояние: полупрозрачный */
+    100% { opacity: 1; } /* Конечное состояние: снова полностью видимый */
+}
+
+.TextBlockMaxWidth {
+    width: 100%;
+}

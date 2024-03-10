@@ -1,0 +1,45 @@
+.img {
+    height: 55px;
+
+}
+
+.Menu {
+    width: 20%;
+    background-color: #101214;
+    border-radius: 20px;
+}
+
+.LogoBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 45px;
+}
+
+
+.Name {
+    color: #FFFFFF;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 800;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.ActiveMenuItem {
+    background-color: #FFFFFF;
+    color: #101214;
+    font-weight: 500;
+    padding: 20px 0 20px 40px;
+    list-style-type: none;
+    
+}
+
+.NoneActiveMenuItem {
+    background-color: #101214;
+    color: #FFFFFF;
+    font-weight: 500;
+    padding: 20px 0 20px 40px;
+    cursor: pointer;
+    list-style-type: none;
+}

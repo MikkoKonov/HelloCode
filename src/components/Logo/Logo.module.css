@@ -1,0 +1,21 @@
+.span {
+    font-family: "Montserrat-ExtraBold", Helvetica;
+    font-weight: 800;
+}
+
+.animationCursor {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 800;
+    color: #101214;
+    padding: 3px 5px;
+    background-color: #101214;
+    animation: blink 0.8s infinite; /* Применяем анимацию blink */
+
+}
+
+@keyframes blink {
+    0% { opacity: 1; } /* Начальное состояние: полностью видимый */
+    50% { opacity: 0; } /* Среднее состояние: полупрозрачный */
+    100% { opacity: 1; } /* Конечное состояние: снова полностью видимый */
+}

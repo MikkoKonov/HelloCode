@@ -1,0 +1,11 @@
+.maxWidth {
+    max-width: 100%;
+}
+
+.section {
+    display: inline;
+}
+
+.box {
+    display: inline-flex;
+}

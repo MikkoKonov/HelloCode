@@ -1,0 +1,54 @@
+.bg {
+    background-color: #101214;
+}
+
+.footer {
+    padding: 15px 0;
+    max-width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Добавляем выравнивание элементов по вертикали */
+    margin: 0 auto;
+}
+
+.a {
+    padding: 15px;
+    border-radius: 100px;
+    background-color: #303437;
+    display: flex;
+    align-items: center; /* Центрирование контента по вертикали */
+    margin-left: 10px;
+}
+
+.div {
+    display: flex;
+    align-items: center; /* Центрирование контента по вертикали */
+}
+
+.img {
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+}
+
+.span {
+    font-family: "Montserrat-ExtraBold", Helvetica;
+    font-weight: 800;
+    color: #FFFFFF;
+}
+
+.animationCursor {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 800;
+    color: #FFFFFF;
+    padding: 3px 5px;
+    background-color: #FFFFFF;
+    animation: blink 0.8s infinite; /* Применяем анимацию blink */
+}
+
+@keyframes blink {
+    0% { opacity: 1; } /* Начальное состояние: полностью видимый */
+    50% { opacity: 0; } /* Среднее состояние: полупрозрачный */
+    100% { opacity: 1; } /* Конечное состояние: снова полностью видимый */
+}

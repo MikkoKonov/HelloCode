@@ -1,0 +1,104 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .textContainer {
+    flex: 1;
+  }
+  
+  .imagesContainer {
+    position: relative;
+    width: 512px;
+    height: 527px;
+
+  }
+  
+  .imagesContainer img {
+    position: absolute;
+    z-index: 1;
+  }
+  
+  /* Пример для двух изображений */
+  .imagesContainer img:nth-child(1) {
+    z-index: 1;
+    top: 0px;
+    left: 40px
+  
+  }
+  
+  .imagesContainer img:nth-child(2) {
+    z-index: 2;
+    top: 60px;
+  }
+  
+  .buttonMain {
+    all: initial;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background-color: #101214;
+    display: inline-flex;
+    padding: 22px 65px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .buttonMain:hover {
+    background: #303437;
+    cursor: pointer;
+  }
+  
+  .AnimatedText {
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #101214;
+    z-index: 2;
+  }
+  
+  .animationCursor {
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    color: #101214;
+    padding: 7px;
+    background-color: #101214;
+    animation: blink 0.8s infinite;
+  }
+  
+  @keyframes blink {
+    0% { opacity: 1; } /* Начальное состояние: полностью видимый */
+    50% { opacity: 0; } /* Среднее состояние: полупрозрачный */
+    100% { opacity: 1; } /* Конечное состояние: снова полностью видимый */
+  }
+  
+  .backgroundButton {
+    display: flex;
+    align-items: center;
+    border: 3px solid #101214;
+    display: inline-flex;
+    border-radius: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .backgroundButton div {
+    padding: 10px 30px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  .activeLanguage {
+    background-color: #101214;
+  }
+  
+  
+  
